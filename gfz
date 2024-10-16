@@ -5,12 +5,18 @@ ZIPDIR="$HOME/GDrive/vartak/CS/practical-zip"
 alias zip='zip -FSr'
 
 cd "$FILESDIR" || exit
-zip "$ZIPDIR/sem4" sem4
+# zip "$ZIPDIR/sem4" sem4
+zip "$ZIPDIR/sem5" sem5
 
-cd "$FILESDIR/sem4" || exit
-zip "$ZIPDIR/sem4/AAD" AAD -x AAD/P04_Flutter/firebase/\* AAD/P04_Flutter/Flutter/\*
-zip "$ZIPDIR/sem4/Android" Android
-zip "$ZIPDIR/sem4/CN" CN
-zip "$ZIPDIR/sem4/IOT" IOT
-zip "$ZIPDIR/sem4/SE" SE
-zip "$ZIPDIR/sem4/TOC" TOC
+# cd "$FILESDIR/sem4" || exit
+# zip "$ZIPDIR/sem4/AAD" AAD -x AAD/P04_Flutter/firebase/\* AAD/P04_Flutter/Flutter/\*
+# zip "$ZIPDIR/sem4/Android" Android
+# zip "$ZIPDIR/sem4/CN" CN
+# zip "$ZIPDIR/sem4/IOT" IOT
+# zip "$ZIPDIR/sem4/SE" SE
+# zip "$ZIPDIR/sem4/TOC" TOC
+
+cd "$FILESDIR/sem5" || exit
+zip "$ZIPDIR/sem5/AI" AI
+zip "$ZIPDIR/sem5/INS" INS
+zip "$ZIPDIR/sem5/STQA" STQA
